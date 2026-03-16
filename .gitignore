@@ -1,8 +1,6 @@
 /.trae
-/.tmp_Image
-/client
+/tmp_Image
 /ferment_control.log
-/server
-/shared
 /__pycache__
 /使用说明.md
+/logs
