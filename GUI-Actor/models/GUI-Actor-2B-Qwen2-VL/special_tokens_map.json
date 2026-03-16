@@ -1,0 +1,47 @@
+{
+  "additional_special_tokens": [
+    {
+      "content": "<|recipient|>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false
+    },
+    {
+      "content": "<|diff_marker|>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false
+    },
+    {
+      "content": "<|pointer_start|>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false
+    },
+    {
+      "content": "<|pointer_end|>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false
+    },
+    {
+      "content": "<|pointer_pad|>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false
+    }
+  ],
+  "eos_token": "<|diff_marker|>",
+  "pad_token": {
+    "content": "<|endoftext|>",
+    "lstrip": false,
+    "normalized": false,
+    "rstrip": false,
+    "single_word": false
+  }
+}

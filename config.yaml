@@ -1,0 +1,22 @@
+# 模型配置
+model:
+  gui_actor: "microsoft/GUI-Actor-2B-Qwen2-VL"
+  box_threshold: 0.05
+  # 增强识别
+  enable_omniparser: true
+  omniparser_weights: "OmniParser/weights"
+
+# 服务器配置
+server:
+  host: "0.0.0.0"
+  port: 8080
+
+# 截图配置
+screenshot:
+  width: 1280
+  temp_dir: "./tmp_Image"
+
+# 日志配置
+logging:
+  file: "ferment_control.log"
+  level: "INFO"
